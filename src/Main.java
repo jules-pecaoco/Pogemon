@@ -4,7 +4,7 @@ public class Main {
     //Tired of Ideas
 
     static Scanner userInput = new Scanner(System.in);
-    static String choice="";
+    static String choice="",userName;
     static int intChoice;
     static Random random = new Random();
 
@@ -31,7 +31,13 @@ public class Main {
         myTwo.HP = 15;
         myTwo.MP = 15;
 
-
+        //Start
+        System.out.println("Welcome to Pogemon");
+        System.out.println("Please enter trainer name: ");
+        userName = userInput.next();
+        System.out.println("Welcome "+userName+" to the world of Pogemon!");
+        System.out.println("My name is Mahogani! People call me the Pogemon Prof!\nThis world is inhabited by creatures called Pogemon!");
+        System.out.println("\nI will give you " + myOne.name + " as your pogemon\nYou have no choice!\nNow go explore the world of Pogemon");
         main();
 
 

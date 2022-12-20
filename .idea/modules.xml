@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Pogemon Lava.iml" filepath="$PROJECT_DIR$/Pogemon Lava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pogemon.iml" filepath="$PROJECT_DIR$/Pogemon.iml" />
     </modules>
   </component>
 </project>
